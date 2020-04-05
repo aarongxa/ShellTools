@@ -1,6 +1,8 @@
 # ShellTools
 
-My personal shell scripts, tmux configs, and other useful scripts developed over the years.
+My personal shell scripts, tmux configs, and other useful scripts developed over the years. 
+
+Feel free to use. HMU with any questions!
 
 ## Installation
 
