@@ -6,8 +6,6 @@ Feel free to use. HMU with any questions!
 
 ## Installation
 
-cp
-
 ```bash
 git clone <repo>
 cp
