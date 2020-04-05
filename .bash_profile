@@ -1,3 +1,13 @@
+# Mac OSX - Load bashrc if exists
+if [ -r ~/.bashrc ]; then
+   source ~/.bashrc
+fi
+
+# Load amazing prompt options if exists
+f [ -r ~/.amazing-prompt-active ]; then
+   source ~/.amazing-prompt-active
+fi
+
 # tmux stuff
 alias nt="tmux list-sessions >/dev/null 2>&1 echo 'Attaching to existing tmux session' && sleep .5 && tmux -2 attach || echo 'Creating new tmux session..' && sleep .5 && sh $HOME/tmux-new-session.sh"
 alias t='tmux -2 attach -d'
