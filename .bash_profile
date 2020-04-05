@@ -4,7 +4,7 @@ if [ -r ~/.bashrc ]; then
 fi
 
 # Load amazing prompt options if exists
-f [ -r ~/.amazing-prompt-active ]; then
+if [ -r ~/.amazing-prompt-active ]; then
    source ~/.amazing-prompt-active
 fi
 
